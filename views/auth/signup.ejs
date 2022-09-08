@@ -1,0 +1,50 @@
+<link rel="shortcut icon" href="/products/image/favicon_store.png"/>
+<link rel="stylesheet" href="../../static/css/signup.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/all.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.2.0/css/fontawesome.css'>
+<title>Sign Up</title>
+
+<body class="body">
+    
+    
+    
+    <div class="container">
+        <div class="screen">
+          <div class="screen__content">
+            <form action="/signup" method="post" class="signup">
+              <p class="<%= message.class %>"><%= message.message %></p>
+              <div class="signup__field">
+                <i class="signup__icon fas fa-user"></i>
+                <input type="text" class="signup__input" placeholder="Username " name="username" required>
+              </div>
+              <div class="signup__field">
+                <i class="signup__icon fas fa-user"></i>
+                <input type="text" class="signup__input" placeholder="Email" name="email" required>
+              </div>
+              <div class="signup__field">
+                <i class="signup__icon fas fa-globe"></i>
+                <input type="text" class="signup__input" placeholder="Region" name="region" required>
+              </div>
+              <div class="signup__field">
+                <i class="signup__icon fas fa-lock"></i>
+                <input type="password" class="signup__input" placeholder="Password" name="password" required>
+              </div>
+              <button class="button signup__submit">
+                <span class="button__text">Signup Now</span>
+                <i class="button__icon fas fa-chevron-right"></i>
+              </button>	
+              <div>
+                <p >Already Have An Account?&nbsp; <a href="/login">Login Now!</a></p>
+              </div>			
+            </form>
+          </div>
+          <div class="screen__background">
+            <span class="screen__background__shape screen__background__shape4"></span>
+            <span class="screen__background__shape screen__background__shape3"></span>		
+            <span class="screen__background__shape screen__background__shape2"></span>
+            <span class="screen__background__shape screen__background__shape1"></span>
+          </div>		
+        </div>
+      </div>
+      <!-- partial -->
+</body>

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+*{
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+.black-border{
+    border-right:1.5px solid #000;
+    min-height: 100vh;
+}
+
+.margin-right{
+    margin-right:20px;
+}
+
+.margin-left{
+    margin-left:8em;
+}
+
+.channelname{
+    cursor: pointer;
+}
+
+/* Add scroll bar to div */
+.memberscroll{
+    overflow-y: scroll;
+    height: 80%;
+}
