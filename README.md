@@ -1,6 +1,6 @@
 # Discuss App
 
-Discuss app is very similar to Discord, main tech is used are given below -
+Discuss app is very similar to Slack, main tech is used are given below -
 
 - Express JS
 - Socket.io
